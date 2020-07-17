@@ -1,0 +1,33 @@
+
+.menu-head>h2{
+	display: inline-block;
+	padding: 0.5rem;
+}
+
+.card-template1{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.card-img-left{
+	width: 25%;
+
+}
+
+.card-body{
+	width: 75%;
+}
+@media (max-width: 576px){
+	.menu-head {
+		text-align: center;
+	}
+	.card-template1 {
+		flex-direction: column;
+	}
+	.card-img-left {
+		width: 100%;
+	}
+	.card-body {
+		width: 100%;
+	}
+}
